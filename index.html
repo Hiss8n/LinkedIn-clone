@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn-clone Web Page-</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="nav-bar">
+
+        <div class="nav-left">
+            <a href="index.html">
+                <span class="logo">LT</span>
+            </a>
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="search...">
+            </div>
+        </div>
+        <div class="nav-center">
+            <ul>
+              <li><a href="#"  class="active-link"><img src="home.png"><span>Home</span></a></li>
+              <li><a href="#"><img src="network.png" alt=""><span>My Network</span></a></li>
+              <li><a href="#"><img src="jobs.png" alt=""><span>Jobs</span></a></li>
+              <li><a href="#"><img src="message.png" alt=""><span>Messages</span></a></li>
+              <li><a href="#"><img src="notification.png" alt=""><span>Notification</span></a></li>
+            
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="online">
+                <img src="user-1.png" class="nav-profile" onclick="toggleMenu()">
+            
+            </div>
+        </div>
+
+<!-- Profile drop-down menu -->
+<div class="profile-menu-wrap">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="user-1.png">
+            <div>
+                <h3>Rayan Milton</h3>
+                <a href="Profile.html">See your profile</a>
+            </div>
+        </div>
+        <hr>
+
+        <a href="#" class="profile-menu-links">
+        <img src="feedback.png">
+        <p>Give feedback</p>
+        <span>></span>
+    </a>
+
+    <a href="#" class="profile-menu-links">
+        <img src="setting.png">
+        <p>Settings & Privacy</p>
+        <span>></span>
+    </a>
+    <a href="#" class="profile-menu-links">
+        <img src="help.png">
+        <p>Help and Support</p>
+        <span>></span>
+    </a>
+    <a href="#" class="profile-menu-links">
+        <img src="display.png">
+        <p>Display & Accessibility</p>
+        <span>></span>
+    </a>
+    <a href="#" class="profile-menu-links">
+        <img src="logout.png">
+        <p>logout</p>
+        <span>></span>
+    </a>
+    </div>
+</div>
+
+    </nav>
+    <!-- End of navbar -->
+
+<div class="container">
+
+    
+<!-- left diviosn start -->
+<div class="left-sidebar">
+<div class="sidebar-profile-box">
+    <img src="cover-pic.png" width="500">
+    <div class="sidebar-profile-info">
+        <img src="user-1.png">
+          
+        <h1>Jasyom martin</h1>
+        <h3>Web Designer</h3>
+        <ul>
+            <li>Your Profile views<span>12</span></li>
+            <li>Your Post views<span>423</span></li>
+            <li>Your connections views<span>53</span></li>
+        </ul>
+    </div>
+    <div class="sidebar-info-links">
+        <a href="#"> <img src="items.png">My Items</a>
+        <a href="#"> <img src="premium.png">Try Premium</a>
+    </div>
+</div>
+<div class="sidebar-activity">
+    <h3>RECENT</h3>
+    <a href="#"><img src="recent.png">Designers Hub</a>
+    <a href="#"><img src="recent.png"> Web Development</a>
+    <a href="#"><img src="recent.png"> Online Learning</a>
+    <a href="#"><img src="recent.png"> Group Learning</a>
+    <a href="#"><img src="recent.png"> Codemtor Discussion</a>
+    <h3>GROUPS</h3>
+    <a href="#"><img src="group.png"> Codener Group</a>
+    <a href="#"><img src="group.png"> Law & Legal Procedures</a>
+    <a href="#"><img src="group.png">Marketing</a>
+    <a href="#"><img src="group.png">Data Analysis</a>
+    <h3>HASTAG</h3>
+    <a href="#"><img src="hashtag.png">Gymnism</a>
+    <a href="#"><img src="hashtag.png">Code Master</a>
+    <a href="#"><img src="hashtag.png">OPen AI</a>
+    <div class="discover-more-link">
+        <a href="#">Discover More</a>
+    </div>
+</div>
+
+
+</div>
+
+<!-- left diviosn ends -->
+
+
+
+
+
+<!-- main-content starts -->
+<div class="main-content">
+    <div class="create-post">
+        <div class="create-post-input">
+
+            <img src="user-1.png" >
+            <textarea row="2"  placeholder="write a post"></textarea>
+        </div>
+        <div class="create-post-links">
+            <li><img src="photo.png">photo</li>
+            <li><img src="video.png">video</li>
+            <li><img src="event.png">Event</li>
+            <li>Post</li>
+        </div>
+    </div>
+
+
+
+    <div class="sort-by">
+        <hr>
+        <p>Sort by : <span>Top <img src="down-arrow.png"></span></p>
+    </div>
+
+    <div class="post">
+        <div class="post-auther">
+            <img src="user-1.png">
+            <div>
+                <h1>Jasyom martin</h1>
+                <small>CEO Angel Investment LTD | Yoan Agency</small>
+                <small>3 hours ago</small>
+            </div>
+    </div>
+    <p>The success of every developer is not by the fancy tools you use.It is neither
+         by the school you atend or the tutorial yoy watched.It is by the amoutn of time 
+         you took to code and build good projects </p>
+         <img src="post-image-1.png" width="100%">
+
+<div class="post-stats">
+    <div>
+        <img src="thumbsup.png">
+        <img src="love.png">
+        <img src="clap.png">
+        <span class="liked-users">Adebnemi and <span id="reactions">322</span> others  </span>
+    </div>
+    <div>
+        <span>42 comments &middot; 23 shares</span>
+    </div>
+</div>
+<div class="post-activity">
+    <div>
+        <img src="user-1.png" class="post-activity-user-icon">
+        <img src="down-arrow.png" class="post-activity-arrow-icon">
+    </div>
+    <div class="post-activity-link" onclick="addComments()" id="like">
+        <img src="like.png">
+        <span >Liked</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="comment.png">
+        <span>Comment</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="share.png">
+        <span>Share</span>
+    </div>
+    <div class="post-activity-link">
+        <img src="send.png">
+        <span>Send</span>
+    </div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<div class="post">
+    <div class="post-auther">
+        <img src="user-2.png">
+        <div>
+            <h1>Cleophus Thompson</h1>
+            <small>Food & Nutrrition | Glovo</small>
+            <small>1hours ago</small>
+        </div>
+</div>
+<p>Eat well. not by the fancy tools you use.It is neither
+     by the school you atend or the tutorial yoy watched.It is by the amoutn of time 
+     you took to code and build good projects </p>
+     <img src="post-image-2.png" width="100%">
+
+<div class="post-stats">
+<div>
+    <img src="thumbsup.png">
+    <img src="love.png">
+    <img src="clap.png">
+    <span class="liked-users">ARemi and <span id="reactions">67</span>others</span>
+</div>
+<div>
+    <span>90 comments &middot; 24 shares</span>
+</div>
+</div>
+<div class="post-activity">
+<div>
+    <img src="user-2.png" class="post-activity-user-icon">
+    <img src="down-arrow.png" class="post-activity-arrow-icon">
+</div>
+<div class="post-activity-link" onclick="addComments()"id="like">
+    <img src="like.png">
+    <span >Liked</span>
+</div>
+<div class="post-activity-link">
+    <img src="comment.png">
+    <span>Comment</span>
+</div>
+<div class="post-activity-link">
+    <img src="share.png">
+    <span>Share</span>
+</div>
+<div class="post-activity-link">
+    <img src="send.png">
+    <span>Send</span>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<div class="post">
+    <div class="post-auther">
+        <img src="user-5.png">
+        <div>
+            <h1>James George</h1>
+            <small>Farmer & Dairy</small>
+            <small>2days ago</small>
+        </div>
+</div>
+<p>The success of every developer is not by the fancy tools you use.It is neither
+     by the school you atend or the tutorial yoy watched.It is by the amoutn of time 
+     you took to code and build good projects </p>
+     <img src="user-5.png" width="100%">
+
+<div class="post-stats">
+<div>
+    <img src="thumbsup.png">
+    <img src="love.png">
+    <img src="clap.png">
+    <span class="liked-users">Adebnemi and <span id="reactions">28</span>others</span>
+</div>
+<div>
+    <span>42 comments &middot; 23 shares</span>
+</div>
+</div>
+<div class="post-activity">
+<div>
+    <img src="user-5.png" class="post-activity-user-icon">
+    <img src="down-arrow.png" class="post-activity-arrow-icon">
+</div>
+<div class="post-activity-link" onclick="addComments()"id="like">
+    <img src="like.png">
+    <span >Liked</span>
+</div>
+<div class="post-activity-link">
+    <img src="comment.png">
+    <span>Comment</span>
+</div>
+<div class="post-activity-link">
+    <img src="share.png">
+    <span>Share</span>
+</div>
+<div class="post-activity-link">
+    <img src="send.png">
+    <span>Send</span>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+<div class="post">
+    <div class="post-auther">
+        <img src="user-4.png">
+        <div>
+            <h1>Mohamoud M.</h1>
+            <small>Interior Design</small>
+            <small>1hours ago</small>
+        </div>
+</div>
+<p>The success of every developer is not by the fancy tools you use.It is neither
+     by the school you atend or the tutorial yoy watched.It is by the amoutn of time 
+     you took to code and build good projects </p>
+     <img src="post-image-3.png" width="100%">
+
+<div class="post-stats">
+<div>
+    <img src="thumbsup.png">
+    <img src="love.png">
+    <img src="clap.png">
+    <span class="liked-users">Sifaa Farouk<span id="reactions">753</span>others</span>
+</div>
+<div>
+    <span>41k comments &middot; 25shares</span>
+</div>
+</div>
+<div class="post-activity">
+<div>
+    <img src="user-4.png" class="post-activity-user-icon">
+    <img src="down-arrow.png" class="post-activity-arrow-icon">
+</div>
+<div class="post-activity-link" onclick="addComments()" id="like">
+    <img src="like.png">
+    <span >Liked</span>
+</div>
+<div class="post-activity-link">
+    <img src="comment.png">
+    <span>Comment</span>
+</div>
+<div class="post-activity-link">
+    <img src="share.png">
+    <span>Share</span>
+</div>
+<div class="post-activity-link">
+    <img src="send.png">
+    <span>Send</span>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+
+<!-- main-contentstarts -->
+
+
+
+
+
+<!-- right devisiion starts -->
+<div class="right-sidebar">
+    <div class="sidebar-news">
+        <img src="more.png"  class="info-icon">
+        <h3>Trending News</h3>
+        
+        <a href="#">High demand for online workers</a>
+        <span>2d ago,Adidas,11,230 Readers</span>
+
+        <a href="#">Coders Time Revolution</a>
+        <span>2d ago,20th Century Fox,11k Readers</span>
+
+        <a href="#">Demonstration chanting FREE Palestine rock the UK</a>
+        <span>1d ago,Rueters,14,340 Readers</span>
+
+        <a href="#">Farmers fear fertilizers rise</a>
+        <span>3d ago,NTV,10k Readers</span>
+
+        <a href="#">Job Market for New Graduates surge</a>
+        <span>1d ago,BBC,32,230 Readers</span>
+   <a href="#" class="read-more-link">Read More</a>
+    </div>
+    <div class="sidebar-add">
+        <small>Ads &middot;  &middot;  &middot;</small>
+        <p>Master the  5 principals of art</p>
+        <div>
+            <img src="user-1.png">
+            <img src="mi-logo.png">
+        </div>
+        <b>Brand and Demand at Xiaomi</b>
+        <a href="#" class="ad-link">Learn More</a>
+    </div>
+
+    <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Help center</a>
+        <a href="#">Privacy $ policy</a>
+        <a href="#">Advertisment</a>
+        <a href="#">Get the App</a>
+        <a href="#">Advertisment</a>
+        <a href="#">More</a>
+
+        <div class="copyright-msg">
+            <img src="logo.png" >
+            <p>LinkPost &#169; <span class="day"></span>,All rights reserved</p>
+        </div>
+    </div>
+</div>
+
+<!-- right devisiion starts -->
+
+
+
+</div>
+
+<script src="index.js"></script>
+<script>
+
+    const rxtinBtn=document.querySelector('#like');
+    const reactinCount=document.querySelector('#reactions');
+
+      let initialCount=0
+        function addComments(){
+        rxtinBtn.addEventListener('click',()=>{
+            initialCount++;
+            reactinCount.textContent=initialCount;
+            
+            
+        })
+    
+
+
+    }
+
+    const day=document.querySelector('.day')
+    let currentDay=new Date();
+    day.textContent=currentDay.getFullYear()
+
+
+
+
+    
+
+</script>
+
+</body>
+</html>
